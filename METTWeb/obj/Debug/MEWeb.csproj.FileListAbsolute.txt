@@ -69,6 +69,6 @@ C:\Clients\MovieExpress\METTWeb\bin\System.Numerics.Vectors.xml
 C:\Clients\MovieExpress\METTWeb\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Clients\MovieExpress\METTWeb\obj\Debug\MEWeb.csproj.AssemblyReference.cache
 C:\Clients\MovieExpress\METTWeb\obj\Debug\MEWeb.csproj.CoreCompileInputs.cache
-C:\Clients\MovieExpress\METTWeb\obj\Debug\MEWeb.csproj.CopyComplete
 C:\Clients\MovieExpress\METTWeb\obj\Debug\MEWeb.dll
 C:\Clients\MovieExpress\METTWeb\obj\Debug\MEWeb.pdb
+C:\Clients\MovieExpress\METTWeb\bin\AjaxMin.dll
