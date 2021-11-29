@@ -178,7 +178,7 @@
         var CheckOut = function (obj) {
             console.log(obj.myBasket())
             console.log(ViewModel)
-            ViewModel.CallServerMethod('CheckOut', { shipmentMethodID: ViewModel.ShipmentMethodID(),  uncheckedBasket: obj.myBasket.Serialise(), ShowLoadingBar: true }, function (result) {
+            ViewModel.CallServerMethod('CheckOut', { Total: ViewModel.Total, shipmentMethodID: ViewModel.ShipmentMethodID(), uncheckedBasket: obj.myBasket.Serialise(), ShowLoadingBar: true }, function (result) {
                 if (result.Success) {
                     window.location = result.Data;
                    /* Singular.mess("Products successfully Checked Out.", 'center', 'info', 5000);*/
