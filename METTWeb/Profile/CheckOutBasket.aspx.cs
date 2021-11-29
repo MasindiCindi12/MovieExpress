@@ -241,7 +241,7 @@ namespace MEWeb.Profile
                                 }
                                 else
                                 {
-                                    sr.ErrorText = "Transaction not Successful";
+                                    sr.ErrorText = "Transaction not Successful, Ensure you have ENough Funds in your account";
                                     sr.Success = false;
                                 }
                            

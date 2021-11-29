@@ -61,46 +61,7 @@
                                                   {
                                                       // Place holder
                                                   }
-                                                  //var MiddleColContentDiv = RowContentDiv.Helpers.DivC("col-md-4");
-                                                  //{
-                                                  //  var FormContent = MiddleColContentDiv.Helpers.With<MELib.Movies.Movie>(c => c.EditMovie);
-                                                  //  {
-                                                  //    var MovieTitle = FormContent.Helpers.DivC("col-md-12");
-                                                  //    {
-                                                  //      MovieTitle.Helpers.BootstrapEditorRowFor(c => c.MovieTitle);
-                                                  //    }
-
-                                                  //    var MovieDescription = FormContent.Helpers.DivC("col-md-12");
-                                                  //    {
-                                                  //      MovieDescription.Helpers.BootstrapEditorRowFor(c => c.MovieDescription);
-                                                  //    }
-                                                  //    var MovieGenre = FormContent.Helpers.DivC("col-md-12");
-                                                  //    {
-                                                  //      MovieGenre.Helpers.BootstrapEditorRowFor(c => c.MovieGenreID);
-                                                  //    }
-                                                  //    var ActionsDiv = FormContent.Helpers.DivC("col-md-12");
-                                                  //    {
-
-                                                  //      var SaveBtn = ActionsDiv.Helpers.Button("Save", Singular.Web.ButtonMainStyle.Primary, Singular.Web.ButtonSize.Normal, Singular.Web.FontAwesomeIcon.None);
-                                                  //      {
-                                                  //        SaveBtn.AddBinding(Singular.Web.KnockoutBindingString.click, "UpdateMovie($data)");
-                                                  //        SaveBtn.AddClass("btn btn-primary");
-                                                  //      }
-
-                                                  //      var Addtn = ActionsDiv.Helpers.Button("Add", Singular.Web.ButtonMainStyle.Primary, Singular.Web.ButtonSize.Normal, Singular.Web.FontAwesomeIcon.None);
-                                                  //     {
-                                                  //       Addtn.AddBinding(Singular.Web.KnockoutBindingString.click, "AddMovie()");
-                                                  //        Addtn.AddClass("btn btn-primary");
-                                                  //      }
-
-                                                  //      var DeleteBtn = ActionsDiv.Helpers.Button("Delete", Singular.Web.ButtonMainStyle.Primary, Singular.Web.ButtonSize.Normal, Singular.Web.FontAwesomeIcon.None);
-                                                  //      {
-                                                  //        DeleteBtn.AddBinding(Singular.Web.KnockoutBindingString.click, "DeleteMovie($data)");
-                                                  //        DeleteBtn.AddClass("btn btn-primary");
-                                                  //      }
-                                                  //    }
-                                                  //  }
-                                                  //}
+                                                
                                                   var MiddlerColContentDiv = RowContentDiv.Helpers.DivC("col-md-4");
                                                   {
                                                       var FormContent = MiddlerColContentDiv.Helpers.With<MELib.Security.User>(c => c.EditUser);
